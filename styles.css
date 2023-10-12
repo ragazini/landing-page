@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto";
+}
+
 .first-top {
   display: flex;
   justify-content: space-between;
@@ -57,7 +61,7 @@ ul {
   align-items: center;
 }
 
-button {
+.first-bottom-text > button {
   background-color: #3882f6;
   padding: 0;
   border: none;
@@ -79,7 +83,7 @@ button {
   gap: 40px;
   /* padding: 20px; */
   /* margin-left: 40px; */
-  background-color: beige;
+  padding: 40px;
 }
 
 .center-cards {
@@ -93,4 +97,71 @@ button {
   display: flex;
   justify-content: space-around;
   border-radius: 10%;
+  margin: auto;
+}
+
+.second-image-subtext {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 150px;
+}
+
+.third > p:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 50px; */
+  margin-top: -20px;
+}
+
+.third {
+  background-color: lightgray;
+  padding: 50px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+  font-style: light italic;
+  color: #1f2937;
+}
+
+.fourth-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: #3882f6;
+  height: 100px;
+  width: 600px;
+}
+
+.fourth {
+  background-color: white;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-banner-text > p {
+  color: white;
+  margin: 0px;
+}
+
+.fourth-banner-button > button {
+  border: 1px white solid;
+  border-radius: 10px;
+  background-color: #3882f6;
+  padding: 5px 10px;
+  color: white;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
